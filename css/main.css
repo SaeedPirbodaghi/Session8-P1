@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.wrapper{
+    width: 100%;
+}
+div.rect{
+    height: 610px;
+    width: 200px;
+    background-color: rgb(58, 55, 55);
+    margin: 50px auto;
+    border: solid gray 5px;
+    border-radius: 20px;
+}
+div.Red-C,div.Yellow-C,div.Green-C{
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+div.content-Red,div.content-Yellow,div.content-Green{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    border-radius: 75px;
+}
+div.content-Red{
+    background-color: rgba(255, 0, 0, 0.705);
+    transition: 300ms;
+}
+div.content-Yellow{
+    background-color: rgba(255, 255, 0, 0.856);
+    transition: 300ms;
+}
+div.content-Green{
+    background-color: rgba(0, 128, 0, 0.582);
+    transition: 300ms;
+}
+div.content-Red:hover{
+    background-color: Red;
+    box-shadow: 5px 5px 5px yellowgreen,-5px 5px 5px yellowgreen,5px -5px 5px yellowgreen, -5px -5px 5px yellowgreen ;
+    transition: 300ms;
+}
+div.content-Yellow:hover{
+    background-color: yellow;
+    box-shadow: 5px 5px 5px yellowgreen,-5px 5px 5px yellowgreen,5px -5px 5px yellowgreen, -5px -5px 5px yellowgreen ;
+    transition: 300ms;
+}
+div.content-Green:hover{
+    background-color: Green;
+    box-shadow: 5px 5px 5px yellowgreen,-5px 5px 5px yellowgreen,5px -5px 5px yellowgreen, -5px -5px 5px yellowgreen ;
+    transition: 300ms;
+}
+
